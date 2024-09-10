@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(241, 228, 232);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding: 40px;
+    margin: 20px 0;
+    text-align: center;
+    color: rgb(90, 12, 39);
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px  black;
+}
+
+.banner{
+    width: 1200px;
+    margin-left: 160px;
+    box-shadow: 10px 10px 20px rgb(44, 44, 44) ;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    /* margin-left: 220px; */
+}
+
+nav a{
+    margin-left: 100px;
+    margin-top: 100pxpx;
+    text-decoration: none;
+    background-color: rgb(250, 173, 173);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    color: rgb(93, 0, 31);
+    outline: 2px solid rgb(93, 0, 31);
+    font-weight: bold;
+    font-size: x-large;
+    box-shadow: 10px 10px 20px black;
+}
+
+nav a:hover{
+    background-color: rgb(151, 45, 80);
+    color: antiquewhite;
+}
+
+
+.anchor{
+    margin-left: 30px;
+}
+
+.anc{
+    margin-left: 125px;
+}
+
+nav img{
+    margin-bottom: 40px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.muffin,.ice,.rata{
+    margin-left: 460px;
+    box-shadow: 10px 10px 20px rgb(44, 44, 44);
+    margin-bottom: 50px;
+}
+
+.body{
+    margin: 0 150px;
+    line-height: 40px;
+}
+
+h2{
+    color: rgb(90, 12, 39);
+    text-shadow: 1px 1px 1px  black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+h3{
+    color: rgb(90, 12, 39);
+    text-shadow: 1px 1px 1px  black;
+}
+
+ul li{
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+p{
+    line-height: 25px;
+}
+
+footer{
+    background-color: rgba(90, 12, 39, 0.644);
+    color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+
+
