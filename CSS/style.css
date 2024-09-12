@@ -26,6 +26,28 @@ h1{
     box-shadow: 10px 10px 20px rgb(44, 44, 44) ;
 }
 
+.navs{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -80px;
+}
+
+.navs a{
+    margin-left: 70px;
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: rgb(250, 173, 173);
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-end-end-radius: 50px;
+    border-start-start-radius: 20px;
+    font-size: larger;
+    color: rgb(93, 0, 31);
+    outline: 2px solid rgb(93, 0, 31);
+    font-weight: bold;
+    box-shadow: 10px 10px 20px black;
+}
+
 .nav{
     display: flex;
     justify-content: space-around;
@@ -35,12 +57,13 @@ h1{
 
 nav a{
     margin-left: 100px;
-    margin-top: 100pxpx;
+    margin-top: 100px;
     text-decoration: none;
     background-color: rgb(250, 173, 173);
     padding: 20px;
-    border-radius: 10px;
-    font-size: larger;
+    border-radius: 60px;
+    border-end-start-radius: 10px;
+    border-start-end-radius: 10px;
     color: rgb(93, 0, 31);
     outline: 2px solid rgb(93, 0, 31);
     font-weight: bold;
@@ -104,7 +127,7 @@ p{
 
 footer{
     background-color: rgba(90, 12, 39, 0.644);
-    color: antiquewhite;
+    color: rgb(249, 241, 230);
     padding: 20px;
     text-align: center;
 }
